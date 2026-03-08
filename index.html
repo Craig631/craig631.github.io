@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Craig | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-shell">
+    <header class="hero" id="top">
+        <nav class="site-nav">
+            <a href="#top" class="brand">Craig631</a>
+            <button id="mobile-menu" class="mobile-menu" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Geometric Accent Shapes -->
+        <div class="accent-shape accent-green"></div>
+        <div class="accent-shape accent-red"></div>
+        <div class="accent-shape accent-yellow"></div>
+        <div class="accent-shape accent-blue"></div>
+
+        <div class="hero-grid">
+            <div class="hero-copy reveal">
+                <p class="eyebrow">WEB DEVELOPER & NETWORK ENGINEER</p>
+                <h1>Building the future through code and connectivity.</h1>
+                <p class="hero-text">
+                    Zetech University student specializing in web development and network engineering 
+                    with skills in HTML, CSS, JS, Java, Linux, and MySQL.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="cta-btn primary">Let's Chat</a>
+                    <a href="mailto:craig631@example.com" class="cta-link">Send me an email</a>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="portrait-wrap">
+                    <img src="images/about.jpg" alt="Craig portrait">
+                </div>
+                <div class="hero-badge">
+                    <span>Web Developer</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro reveal" id="about">
+            <div class="section-label">About</div>
+            <div class="intro-grid">
+                <div>
+                    <h2>Crafting digital experiences with code and technical expertise.</h2>
+                </div>
+                <div>
+                    <p>
+                        I'm a Zetech University student based in Ruiru, Kenya, passionate about building 
+                        web applications and understanding network infrastructure.
+                    </p>
+                    <p>
+                        My work spans front-end development with HTML, CSS, and JavaScript, back-end 
+                        programming with PHP, Python, Java, and C++, along with database management 
+                        using MySQL and Linux server configuration.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section reveal" id="skills">
+            <div class="section-label">Skills</div>
+            <div class="section-heading">
+                <h2>Technical strengths</h2>
+                <p>Technologies I work with to bring ideas to life.</p>
+            </div>
+            <div class="skills-list">
+                <article class="skill-row">
+                    <div>
+                        <h3>HTML</h3>
+                        <p>Semantic structure, accessible layouts, and solid page foundations.</p>
+                    </div>
+                    <div class="skill-meter">
+                        <span class="skill-progress" data-progress="90"></span>
+                    </div>
+                    <span class="skill-value">90%</span>
+                </article>
+                <article class="skill-row">
+                    <div>
+                        <h3>CSS</h3>
+                        <p>Responsive styling, modern layouts, motion, and polished visual systems.</p>
+                    </div>
+                    <div class="skill-meter">
+                        <span class="skill-progress" data-progress="85"></span>
+                    </div>
+                    <span class="skill-value">85%</span>
+                </article>
+                <article class="skill-row">
+                    <div>
+                        <h3>JavaScript</h3>
+                        <p>Interactive behavior, DOM logic, and lightweight front-end scripting.</p>
+                    </div>
+                    <div class="skill-meter">
+                        <span class="skill-progress" data-progress="80"></span>
+                    </div>
+                    <span class="skill-value">80%</span>
+                </article>
+                <article class="skill-row">
+                    <div>
+                        <h3>Java</h3>
+                        <p>Object-oriented application logic and desktop project development.</p>
+                    </div>
+                    <div class="skill-meter">
+                        <span class="skill-progress" data-progress="75"></span>
+                    </div>
+                    <span class="skill-value">75%</span>
+                </article>
+                <article class="skill-row">
+                    <div>
+                        <h3>MySQL</h3>
+                        <p>Relational database structure, queries, and data-backed applications.</p>
+                    </div>
+                    <div class="skill-meter">
+                        <span class="skill-progress" data-progress="70"></span>
+                    </div>
+                    <span class="skill-value">70%</span>
+                </article>
+                <article class="skill-row">
+                    <div>
+                        <h3>Linux Networking</h3>
+                        <p>Configuration practice, labs, and network troubleshooting fundamentals.</p>
+                    </div>
+                    <div class="skill-meter">
+                        <span class="skill-progress" data-progress="65"></span>
+                    </div>
+                    <span class="skill-value">65%</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact-section reveal" id="contact">
+            <div class="contact-panel">
+                <div>
+                    <div class="section-label">Contact</div>
+                    <h2>Let's connect and build something together.</h2>
+                    <p>
+                        Interested in working together or have a question? Feel free to reach out.
+                    </p>
+                    <p>
+                        Location: Ruiru, Kenya
+                    </p>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your-email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about the opportunity"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="year"></span> Craig. All rights reserved.</p>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
